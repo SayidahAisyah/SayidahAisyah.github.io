@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Halaman Iseh</title>
-</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
 <body>
-<h1>Tentang Saya</h1>
-<p>Haiii.. Nama ku Sayidah Aisyah aku lahir di Jakarta, 3 Juni 2001. Aku anak pertama dari 3 bersaudara.ini sekilas tentangku :3</p>
-<h2>Pendidikan</h2>
-<p>Sekarang , aku bersekolah di <STRONG>SMK-SMAK BOGOR</STRONG></p>dengan jurusan Analisis kimia
-<h2>Hobi</h2>
-<p>Main bersama adik dan membaca webtoon</p>
-<img src="img/001_003_961_thumb.jpg" alt="aku dan adikku">
+
+
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Sa_Syah361 Blog's</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Me -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1><br>
+      <h5 class="w3-center">Since 2001</h5>
+      <p class="w3-large">Haii..nama saya Sayidah Aisyah biasa dipanggil Iseh, saya lahir di Jakarta,3 Juni 2001. Saya merupakan anak pertama dari 3 bersaudara.Saya memiliki satu adik perempuan dan satu adik laki-laki. Adik perempuan saya bernama Aulia Zahra dan adik laki-laki saya bernama Muhammad Ismail Serageldin.Sekarang saya bersekolah di <strong>SMK-SMAK BOGOR</strong>. Alasan saya masuk SMAKBO adalah untuk membahagiakan orang tua saya dan menjadi anak yang berbakti kepada kedua orang tua. Saya bertempat tinggal di Jakarta, namun karena jarak yang jauh dari sekolah maka saya sekarang tinggal di Bogor dan pulang setiap hari weekend.
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Point of Me</h1><br>
+      <p class="w3-text-grey"></p><br>
+    
+      <h4>Hobbi</h4>
+      <p class="w3-text-grey">Bermain game dan membaca Webtoon.</p><br>
+    
+      <h4>Cita-Cita</h4>
+      <p class="w3-text-grey">Masuk Surga dan bahagia dunia akherat</p><br>
+    
+      <h4>Hal disenangi</h4>
+      <p class="w3-text-grey">dikasih duit</p><br>
+    
+      <h4>Hal dibenci</h4>
+      <p class="w3-text-grey">kecoa</p>  
+      
+       <h4>Hal unik</h4>
+      <p class="w3-text-grey">gasuka orang jorok tapi sendirinya jorok</p>
+      
+       <h4>Pacar</h4>
+      <p class="w3-text-grey">ong seongwoo</p>   
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Thank's For</h1><br>
+    <p>Terimakasih kepada Allah SWT,Ibu dan Ayah,tante Sarah dan teman- teman saya terutama Vidha dan Widia yang telah membantu saya mengerjakan tugas KKPI ini.</p>
+    <p class="w3-text-blue-grey w3-large"><b>CALL ME !</b></p>
+    <p>contact me by phone 00553123-2323 or email isehcantik@.com, or you can send me a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
 </body>
 </html>
